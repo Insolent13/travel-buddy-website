@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Сервис для поиска попутчиков "Погнали"</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body class="page__body">
+	@@include('blocks/main-header.html')
+	<main class="main-container">
+		<h1 class="visually-hidden">Сервис для путешественников "Погнали?"</h1>
+		<section class="catalog__filter filter">
+            <h2 class="visually-hidden">Фильтры</h2>
+            <div class="filter__alphabet filter-alphabet">
+                <h3 class="filter-alphabet__title">Фильтрация по странам:</h3>
+                <button class="filter-alphabet__toggle" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+                <div class="filter__inner-wrapper">
+                    <ul class="filter__continent-list">
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link filter__continent-link--current" href="#">Европа</a>
+                        </li>
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link" href="#">Азия</a>
+                        </li>
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link" href="#">Америка</a>
+                        </li>
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link" href="#">Острова</a>
+                        </li>
+                    </ul>
+                    <ul class="filter__alphabet-list">
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">a</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">б</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">в</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">г</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">д</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">е</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">з</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">и</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">к</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">л</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">м</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">н</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">о</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">п</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">р</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">с</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">т</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">у</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ф</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">х</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ч</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ш</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">э</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ю</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">я</a>
+                        </li>
+                    </ul>
+                    <ul class="filter__country-list">
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Австралия</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Австрия</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Азербайджан</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Албания</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Алжир</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Ангола</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Андорра</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Антигуа и Барбуда</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Аргентина</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Армения</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Афганистан</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="filter__alphabet-button button" type="button">Свернуть</button>
+            </div>
+            <div class="filter__companion filter-companion">
+                <h3 class="filter-companion__title">Подберите идеального попутчика</h3>
+                <form class="filter-companion-form" method="post" action="https://echo.htmlacademy.ru/">
+                    <ul class="filter-companion__list">
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Хобби</button>
+                        </li>
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Музыка</button>
+                            <ul class="filter-companion__preferences filter-preferences">
+                                <li class="filter-preferences-item">
+                                    <label class="filter-preferences__checkbox">
+                                        <input class="filter-preferences__control" type="checkbox" name="hard-rock" checked>Тяжелый рок
+                                    </label>
+                                </li>
+                      <li class="filter-preferences-item">
+                        <label class="filter-preferences__checkbox">
+                          <input class="filter-preferences__control" type="checkbox" name="russian-rap" checked>
+                          Русский рэп
+                        </label>
+                      </li>
+                      <li class="filter-preferences-item">
+                        <label class="filter-preferences__checkbox">
+                          <input class="filter-preferences__control" type="checkbox" name="euro-dance">
+                          Евроденс
+                        </label>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="filter-companion__item">
+                    <button class="filter-companion__button" type="button">Еда</button>
+                  </li>
+                  <li class="filter-companion__item">
+                    <button class="filter-companion__button" type="button">Транспорт</button>
+                    <ul class="filter-companion__transport transport-list">
+                      <li class="transport-list__item">
+                        <a class="transport-list__link transport-list__link--available" href="#">
+                          <span class="visually-hidden">Самолет</span>
+                        </a>
+                      </li>
+                      <li class="transport-list__item">
+                        <a class="transport-list__link transport-list__link--available" href="#">
+                          <span class="visually-hidden">Автобус</span>
+                        </a>
+                      </li>
+                      <li class="transport-list__item">
+                        <a class="transport-list__link" href="#">
+                          <span class="visually-hidden">Велосипед</span>
+                        </a>
+                      </li>
+                      <li class="transport-list__item">
+                        <a class="transport-list__link transport-list__link--available" href="#">
+                          <span class="visually-hidden">Пешком</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="filter-companion__item">
+                    <button class="filter-companion__button" type="button">Левел</button>
+                    <label class="filter-companion__level">
+                      <input class="filter-companion__number" type="number" value="30" name="min-level">
+                    </label>
+                    <label class="filter-companion__level">
+                      <input class="filter-companion__number" type="number" value="100" name="max-level">
+                    </label>
+                    <div class="filter-companion__range filter-range">
+                      <div class="filter-range__scale">
+                        <div class="filter-range__bar">
+                          <button class="filter-range__toggle toggle-min"></button>
+                          <button class="filter-range__toggle toggle-max"></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <button class="filter-companion__confirm-button button" type="button">Показать</button>
+              </form>
+            </div>
+          </section>
+	</main>
+	@@include('blocks/main-footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
