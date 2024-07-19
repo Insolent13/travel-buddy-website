@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Погнали? - Направления</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body class="page__body">
+	@@include('blocks/main-header.html')
+	<main class="main-container">
+		<h1>Направления</h1>
+        <section class="private-info">
+            <h2 class="visually-hidden">Личная информация</h2>
+            <div class="private-info__level">80<span>level</span></div>
+            <div class="private-info__photo">
+                <img src="images/photo-user-2.jpg" width="270" height="270" alt="Фото пользователя">
+            </div>
+            <a class="private-info__change-photo button" href="#">Сменить фото</a>
+            <div class="private-info__unit hashtags">
+                <h3 class="private-info__title">Тэги</h3>
+                <ul class="private-info__content">
+                    <li class="hashtags__item">#бургер</li>
+                    <li class="hashtags__item">#бар</li>
+                    <li class="hashtags__item">#футбол</li>
+                    <li class="hashtags__item">#концерт</li>
+                    <li class="hashtags__item">#крафт
+                </ul>
+            </div>
+            <div class="private-info__unit user-transport">
+                <h3 class="private-info__title">Транспорт</h3>
+                <ul class="private-info__content">
+                    <li class="user-transport__item user-transport__item--available">
+                        <span class="visually-hidden">Самолет</span>
+                    </li>
+                    <li class="user-transport__item user-transport__item--available">
+                        <span class="visually-hidden">Автобус</span>
+                    </li>
+                    <li class="user-transport__item">
+                        <span class="visually-hidden">Велосипед</span>
+                    </li>
+                    <li class="user-transport__item user-transport__item--available">
+                        <span class="visually-hidden">Пешком</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+	@@include('blocks/main-footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
