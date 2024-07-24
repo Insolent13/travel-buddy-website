@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Погнали? - Попутчики</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body class="page__body page__body--catalog">
+	@@include('blocks/main-header.html')
+	<main class="main-container catalog">
+        <div class="catalog__header">
+            <div class="catalog__header-wrapper">
+                <h1 class="catalog__header-title">Попутчики</h1>
+                <a class="catalog__return-button" href="index.html">На главную</a>
+            </div>
+        </div>
+		<section class="catalog__filter filter">
+            <h2 class="visually-hidden">Фильтры</h2>
+            <div class="filter__alphabet filter-alphabet">
+                <div class="filter-alphabet__head-wrapper">
+                    <h3 class="filter-alphabet__title">Фильтрация по странам:</h3>
+                    <ul class="filter__continent-list">
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link filter__continent-link--current" href="#">Европа</a>
+                        </li>
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link" href="#">Азия</a>
+                        </li>
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link" href="#">Америка</a>
+                        </li>
+                        <li class="filter__continent-item">
+                            <a class="filter__continent-link" href="#">Острова</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter__inner-wrapper">
+
+                </div>
+                    <ul class="filter__alphabet-list">
+                        <li class="filter__alphabet-item filter-letter">
+                            <a class="filter__alphabet-link filter__alphabet-link--current" href="#">a</a>
+                            <ul class="filter-letter__list">
+
+                            </ul>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter-letter__link" href="#">б</a>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter-letter__link" href="#">в</a>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter-letter__link" href="#">г</a>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter-letter__link" href="#">д</a>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter-letter__link" href="#">е</a>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter-letter__link" href="#">з</a>
+                        </li>
+                        <li class="filter-letter__item">
+                            <a class="filter__alphabet-link" href="#">и</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">к</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">л</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">м</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">н</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">о</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">п</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">р</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">с</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">т</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">у</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ф</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">х</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ч</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ш</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">э</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">ю</a>
+                        </li>
+                        <li class="filter__alphabet-item">
+                            <a class="filter__alphabet-link" href="#">я</a>
+                        </li>
+                    </ul>
+                    <ul class="filter__country-list">
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Австралия</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Австрия</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Азербайджан</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Албания</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Алжир</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Ангола</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Андорра</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Антигуа и Барбуда</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Аргентина</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Армения</a>
+                        </li>
+                        <li class="filter__country-item">
+                            <a class="filter__country-link" href="#">Афганистан</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="filter__alphabet-button button" type="button">Свернуть</button>
+            </div>
+            <div class="filter__companion filter-companion">
+                <h3 class="filter-companion__title">Подберите идеального попутчика</h3>
+                <form class="filter-companion-form" method="post" action="https://echo.htmlacademy.ru/">
+                    <ul class="filter-companion__list">
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Хобби</button>
+                        </li>
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Музыка</button>
+                            <ul class="filter-companion__preferences filter-preferences">
+                                <li class="filter-preferences-item">
+                                    <label class="filter-preferences__checkbox">
+                                        <input class="filter-preferences__control" type="checkbox" name="hard-rock" checked>Тяжелый рок
+                                    </label>
+                                </li>
+                                <li class="filter-preferences-item">
+                                    <label class="filter-preferences__checkbox">
+                                        <input class="filter-preferences__control" type="checkbox" name="russian-rap" checked>Русский рэп
+                                    </label>
+                                </li>
+                                <li class="filter-preferences-item">
+                                    <label class="filter-preferences__checkbox">
+                                        <input class="filter-preferences__control" type="checkbox" name="euro-dance">Евроденс
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Еда</button>
+                        </li>
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Транспорт</button>
+                            <ul class="filter-companion__transport transport-list">
+                                <li class="transport-list__item">
+                                    <a class="transport-list__link transport-list__link--available" href="#">
+                                        <span class="visually-hidden">Самолет</span>
+                                    </a>
+                                </li>
+                                <li class="transport-list__item">
+                                    <a class="transport-list__link transport-list__link--available" href="#">
+                                        <span class="visually-hidden">Автобус</span>
+                                    </a>
+                                </li>
+                                <li class="transport-list__item">
+                                    <a class="transport-list__link" href="#">
+                                        <span class="visually-hidden">Велосипед</span>
+                                    </a>
+                                </li>
+                                <li class="transport-list__item">
+                                    <a class="transport-list__link transport-list__link--available" href="#">
+                                        <span class="visually-hidden">Пешком</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filter-companion__item">
+                            <button class="filter-companion__button" type="button">Левел</button>
+                            <label class="filter-companion__level">
+                                <input class="filter-companion__number" type="number" value="30" name="min-level">
+                            </label>
+                            <label class="filter-companion__level">
+                                <input class="filter-companion__number" type="number" value="100" name="max-level">
+                            </label>
+                            <div class="filter-companion__range filter-range">
+                                <div class="filter-range__scale">
+                                    <div class="filter-range__bar">
+                                        <button class="filter-range__toggle toggle-min"></button>
+                                        <button class="filter-range__toggle toggle-max"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="filter-companion__confirm-button button" type="button">Показать</button>
+                </form>
+            </div>
+        </section>
+        <section class="catalog__cards cards">
+            <h2 class="visually-hidden">Профили попутчиков</h2>
+            <ul class="cards__list">
+                <li class="cards__item card-user">
+                    <div class="cards__info">
+                        <img class="cards__avatar" src="/images/photo-mini-user-1.jpg" alt="Аватар пользователя">
+                        <a class="card-user__like card-user__like--pressed" href="#">
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_20761_1579)">
+                                    <path d="M3.25532 1.47406C4.94809 1.47406 6.31915 2.82156 6.31915 4.48385C6.31915 2.82156 7.69022 1.47406 9.38298 1.47406C11.0757 1.47406 12.4468 2.82156 12.4468 4.48385C12.4468 6.98919 9.96971 7.87293 6.61941 11.8609C6.58252 11.9047 6.53654 11.9399 6.48468 11.9641C6.43283 11.9882 6.37633 12.0007 6.31915 12.0007C6.26197 12.0007 6.20548 11.9882 6.15362 11.9641C6.10176 11.9399 6.05578 11.9047 6.0189 11.8609C2.6686 7.87293 0.19149 6.98919 0.19149 4.48385C0.19149 2.82156 1.56255 1.47406 3.25532 1.47406Z" fill="#F02323"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_20761_1579">
+                                        <rect width="12.2553" height="12.2849" fill="white" transform="translate(0.19149 0.706238)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <span class="card-user__likes">1,5 M</span>
+                        <div class="card-user__status card-user__status--offline">
+                            <span class="visually-hidden">Не в сети</span>
+                        </div>
+                        <h3 class="card-user__title">Таня Фирсова</h3>
+                        <p class="card-user__hashtags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+                    </div>
+                    <div class="card-user__targets user-targets">
+                        <h4 class="user-targets__title">хочет посетить:</h4>
+                        <ul class="user-targets__list">
+                            <li class="user-targets__item">Шри-Ланка</li>
+                            <li class="user-targets__item">Тайланд</li>
+                            <li class="user-targets__item">Сейшелы</li>
+                        </ul>
+                    </div>
+                    <div class="card-user__transport user-transport">
+                        <h4 class="user-transport__title">транспорт:</h4>
+                        <ul class="user-transport__list transport-list">
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden">Самолет</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Автобус</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Велосипед</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Пешком</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-user__level user-level">
+                        <h4 class="user-level__title">левел:</h4>
+                        <p class="user-level__value">99</p>
+                    </div>
+                    <a class="card-user__button button" href="#">Позвать!</a>
+                </li>
+                <li class="cards__item card-user">
+                    <div class="cards__info">
+                        <img class="cards__avatar" src="/images/photo-mini-user-2.jpg" alt="Аватар пользователя">
+                        <a class="card-user__like card-user__like--pressed" href="#">
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_20761_1497)">
+                                    <g opacity="0.5">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5.66465L6.6705 4.25538C6.837 3.90641 7.12575 3.40462 7.5345 2.99894C7.9365 2.59955 8.418 2.32778 9 2.32778C10.257 2.32778 11.25 3.37233 11.25 4.62799C11.25 5.58194 10.8345 6.25546 9.849 7.28267C9.59625 7.54578 9.30825 7.83015 8.9895 8.14367C8.1585 8.96293 7.125 9.98226 6 11.3451C4.875 9.98226 3.8415 8.96293 3.0105 8.14367C2.69175 7.83015 2.403 7.54499 2.151 7.28267C1.1655 6.25546 0.75 5.58194 0.75 4.62799C0.75 3.37233 1.743 2.32778 3 2.32778C3.582 2.32778 4.0635 2.59955 4.4655 2.99894C4.87425 3.40462 5.163 3.90641 5.3295 4.25538L6 5.66465ZM6.294 12.1966C6.25788 12.2415 6.21286 12.2777 6.16209 12.3024C6.11131 12.3272 6.05599 12.34 6 12.34C5.94401 12.34 5.8887 12.3272 5.83792 12.3024C5.78714 12.2777 5.74212 12.2415 5.706 12.1966C4.50525 10.6983 3.4185 9.62699 2.52375 8.74551C0.975 7.21808 0 6.25782 0 4.62799C0 2.92253 1.3425 1.54004 3 1.54004C4.2 1.54004 5.03925 2.36717 5.553 3.12182C5.748 3.40935 5.8965 3.68585 6 3.90326C6.12975 3.63116 6.27918 3.36991 6.447 3.12182C6.96075 2.36638 7.8 1.54004 9 1.54004C10.6575 1.54004 12 2.92253 12 4.62799C12 6.25782 11.025 7.21808 9.47625 8.74551C8.5815 9.62778 7.49475 10.6991 6.294 12.1958V12.1966Z" fill="#192144"/>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_20761_1495">
+                                        <rect width="12" height="12" fill="white" transform="translate(0 0.790039)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <span class="card-user__likes">1500</span>
+                        <div class="card-user__status card-user__status--offline">
+                            <span class="visually-hidden">Не в сети</span>
+                        </div>
+                        <h3 class="card-user__title">Петя Демин</h3>
+                        <p class="card-user__hashtags">#бургер #бар #футбол #концерт #крафт</p>
+                    </div>
+                    <div class="card-user__targets user-targets">
+                        <h4 class="user-targets__title">хочет посетить:</h4>
+                        <ul class="user-targets__list">
+                            <li class="user-targets__item">Бельгия</li>
+                            <li class="user-targets__item">Чехия</li>
+                        </ul>
+                    </div>
+                    <div class="card-user__transport user-transport">
+                        <h4 class="user-transport__title">транспорт:</h4>
+                        <ul class="user-transport__list transport-list">
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden ">Самолет</span>
+                            </li>
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden">Автобус</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Велосипед</span>
+                            </li>
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden">Пешком</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-user__level user-level">
+                        <h4 class="user-level__title">левел:</h4>
+                        <p class="user-level__value">80</p>
+                    </div>
+                    <a class="card-user__button button" href="#">Позвать!</a>
+                </li>
+                <li class="cards__item card-user">
+                    <div class="cards__info">
+                        <img class="cards__avatar" src="/images/photo-mini-user-3.jpg" alt="Аватар пользователя">
+                        <a class="card-user__like card-user__like--pressed" href="#">
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_20761_1497)">
+                                    <g opacity="0.5">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5.66465L6.6705 4.25538C6.837 3.90641 7.12575 3.40462 7.5345 2.99894C7.9365 2.59955 8.418 2.32778 9 2.32778C10.257 2.32778 11.25 3.37233 11.25 4.62799C11.25 5.58194 10.8345 6.25546 9.849 7.28267C9.59625 7.54578 9.30825 7.83015 8.9895 8.14367C8.1585 8.96293 7.125 9.98226 6 11.3451C4.875 9.98226 3.8415 8.96293 3.0105 8.14367C2.69175 7.83015 2.403 7.54499 2.151 7.28267C1.1655 6.25546 0.75 5.58194 0.75 4.62799C0.75 3.37233 1.743 2.32778 3 2.32778C3.582 2.32778 4.0635 2.59955 4.4655 2.99894C4.87425 3.40462 5.163 3.90641 5.3295 4.25538L6 5.66465ZM6.294 12.1966C6.25788 12.2415 6.21286 12.2777 6.16209 12.3024C6.11131 12.3272 6.05599 12.34 6 12.34C5.94401 12.34 5.8887 12.3272 5.83792 12.3024C5.78714 12.2777 5.74212 12.2415 5.706 12.1966C4.50525 10.6983 3.4185 9.62699 2.52375 8.74551C0.975 7.21808 0 6.25782 0 4.62799C0 2.92253 1.3425 1.54004 3 1.54004C4.2 1.54004 5.03925 2.36717 5.553 3.12182C5.748 3.40935 5.8965 3.68585 6 3.90326C6.12975 3.63116 6.27918 3.36991 6.447 3.12182C6.96075 2.36638 7.8 1.54004 9 1.54004C10.6575 1.54004 12 2.92253 12 4.62799C12 6.25782 11.025 7.21808 9.47625 8.74551C8.5815 9.62778 7.49475 10.6991 6.294 12.1958V12.1966Z" fill="#192144"/>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_20761_1496">
+                                        <rect width="12" height="12" fill="white" transform="translate(0 0.790039)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <span class="card-user__likes">170</span>
+                        <div class="card-user__status card-user__status--offline">
+                            <span class="visually-hidden">Не в сети</span>
+                        </div>
+                        <h3 class="card-user__title">Марк Смолов</h3>
+                        <p class="card-user__hashtags">#рэп #тату #хайпбист #кроссовки #суприм</p>
+                    </div>
+                    <div class="card-user__targets user-targets">
+                        <h4 class="user-targets__title">хочет посетить:</h4>
+                        <ul class="user-targets__list">
+                            <li class="user-targets__item">США</li>
+                            <li class="user-targets__item">Австралия</li>
+                            <li class="user-targets__item">Доминика</li>
+                        </ul>
+                    </div>
+                    <div class="card-user__transport user-transport">
+                        <h4 class="user-transport__title">транспорт:</h4>
+                        <ul class="user-transport__list transport-list">
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden ">Самолет</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Автобус</span>
+                            </li>
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden">Велосипед</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Пешком</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-user__level user-level">
+                        <h4 class="user-level__title">левел:</h4>
+                        <p class="user-level__value">25</p>
+                    </div>
+                    <a class="card-user__button button" href="#">Позвать!</a>
+                </li>
+                <li class="cards__item card-user">
+                    <div class="cards__info">
+                        <img class="cards__avatar" src="/images/photo-mini-user-4.jpg" alt="Аватар пользователя">
+                        <a class="card-user__like card-user__like--pressed" href="#">
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_20761_1497)">
+                                    <g opacity="0.5">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5.66465L6.6705 4.25538C6.837 3.90641 7.12575 3.40462 7.5345 2.99894C7.9365 2.59955 8.418 2.32778 9 2.32778C10.257 2.32778 11.25 3.37233 11.25 4.62799C11.25 5.58194 10.8345 6.25546 9.849 7.28267C9.59625 7.54578 9.30825 7.83015 8.9895 8.14367C8.1585 8.96293 7.125 9.98226 6 11.3451C4.875 9.98226 3.8415 8.96293 3.0105 8.14367C2.69175 7.83015 2.403 7.54499 2.151 7.28267C1.1655 6.25546 0.75 5.58194 0.75 4.62799C0.75 3.37233 1.743 2.32778 3 2.32778C3.582 2.32778 4.0635 2.59955 4.4655 2.99894C4.87425 3.40462 5.163 3.90641 5.3295 4.25538L6 5.66465ZM6.294 12.1966C6.25788 12.2415 6.21286 12.2777 6.16209 12.3024C6.11131 12.3272 6.05599 12.34 6 12.34C5.94401 12.34 5.8887 12.3272 5.83792 12.3024C5.78714 12.2777 5.74212 12.2415 5.706 12.1966C4.50525 10.6983 3.4185 9.62699 2.52375 8.74551C0.975 7.21808 0 6.25782 0 4.62799C0 2.92253 1.3425 1.54004 3 1.54004C4.2 1.54004 5.03925 2.36717 5.553 3.12182C5.748 3.40935 5.8965 3.68585 6 3.90326C6.12975 3.63116 6.27918 3.36991 6.447 3.12182C6.96075 2.36638 7.8 1.54004 9 1.54004C10.6575 1.54004 12 2.92253 12 4.62799C12 6.25782 11.025 7.21808 9.47625 8.74551C8.5815 9.62778 7.49475 10.6991 6.294 12.1958V12.1966Z" fill="#192144"/>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_20761_1497">
+                                        <rect width="12" height="12" fill="white" transform="translate(0 0.790039)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <span class="card-user__likes">23</span>
+                        <div class="card-user__status card-user__status--offline">
+                            <span class="visually-hidden">В сети</span>
+                        </div>
+                        <h3 class="card-user__title">Лариса Роговая</h3>
+                        <p class="card-user__hashtags">#образование #карьера #учеба #линкедин</p>
+                    </div>
+                    <div class="card-user__targets user-targets">
+                        <h4 class="user-targets__title">хочет посетить:</h4>
+                        <ul class="user-targets__list">
+                            <li class="user-targets__item">Великобритания</li>
+                            <li class="user-targets__item">Германия</li>
+                        </ul>
+                    </div>
+                    <div class="card-user__transport user-transport">
+                        <h4 class="user-transport__title">транспорт:</h4>
+                        <ul class="user-transport__list transport-list">
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden ">Самолет</span>
+                            </li>
+                            <li class="transport-list__item transport-list__item--available">
+                                <span class="visually-hidden">Автобус</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Велосипед</span>
+                            </li>
+                            <li class="transport-list__item">
+                                <span class="visually-hidden">Пешком</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-user__level user-level">
+                        <h4 class="user-level__title">левел:</h4>
+                        <p class="user-level__value">50</p>
+                    </div>
+                    <a class="card-user__button button" href="#">Позвать!</a>
+                </li>
+            </ul>
+            <a class="cards__button-more" href="#">Показать ещё</a>
+            <a class="cards__button-prev" href="#">
+                <span class="visually-hidden">Назад</span>
+            </a>
+            <a class="cards__button-next" href="#">
+                <span class="visually-hidden">Вперед</span>
+            </a>
+        </section>
+	</main>
+	@@include('blocks/main-footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

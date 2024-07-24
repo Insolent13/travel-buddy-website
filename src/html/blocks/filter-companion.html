@@ -1,0 +1,105 @@
+<section class="filter-companion">
+    <h3 class="filter-companion__title">Подберите идеального попутчика</h3>
+    <form class="filter-companion__form" method="post" action="https://echo.htmlacademy.ru/">
+        <ul class="filter-companion__list">
+            <li class="filter-companion__item">
+                <button class="filter-companion__button filter-companion__button--hobby" type="button">Хобби<span class="filter-companion__colon">:</span></button>
+                <ul class="filter-companion__preferences filter-preferences filter-preferences--hobby">
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="gym" name="gym" checked>
+                        <label class="filter-preferences__checkbox" for="gym">Спортзал</label>
+                    </li>
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="hookah" name="hookah">
+                        <label class="filter-preferences__checkbox" for="hookah">Кальян</label>
+                    </li>
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="sofa" name="sofa">
+                        <label class="filter-preferences__checkbox" for="sofa">Диван</label>
+                    </li>
+                </ul>    
+            </li>
+            <li class="filter-companion__item">
+                <button class="filter-companion__button filter-companion__button--music" type="button">Музыка<span class="filter-companion__colon">:</span></button>
+                <ul class="filter-companion__preferences filter-preferences filter-preferences--music">
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="hard-rock" name="hard-rock" checked>
+                        <label class="filter-preferences__checkbox" for="hard-rock">Тяжелый рок</label>
+                    </li>
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="russian-rap" name="russian-rap">
+                        <label class="filter-preferences__checkbox" for="russian-rap">Русский рэп</label>
+                    </li>
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="euro-dance" name="euro-dance">
+                        <label class="filter-preferences__checkbox" for="euro-dance">Евроденс</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="filter-companion__item">
+                <button class="filter-companion__button filter-companion__button--food" type="button">Еда<span class="filter-companion__colon">:</span></button>
+                <ul class="filter-companion__preferences filter-preferences filter-preferences--food">
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="meat-eater" name="meat-eater" checked>
+                        <label class="filter-preferences__checkbox" for="meat-eater">Мясоед</label>
+                    </li>
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="healthy-nutrition" name="healthy-nutrition" checked>
+                        <label class="filter-preferences__checkbox" for="healthy-nutrition">Сидит на ПП</label>
+                    </li>
+                    <li class="filter-preferences__item">
+                        <input class="filter-preferences__control visually-hidden" type="checkbox" id="raw-goods-vegan" name="raw-goods-vegan">
+                        <label class="filter-preferences__checkbox" for="raw-goods-vegan">Веган-сыроед</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="filter-companion__item">
+                <button class="filter-companion__button filter-companion__button--transport" type="button">Транспорт<span class="filter-companion__colon">:</span></button>
+                <ul class="filter-companion__transport transport-list">
+                    <li class="transport-list__item transport-list__item--filter transport-list__item--plane">
+                        <input class="visually-hidden transport-list__control" type="checkbox" id="plane" name="on-plane" checked>
+                        <label class="transport-list__checkbox" for="plane">
+                        </label>
+                    </li>
+                    <li class="transport-list__item transport-list__item--filter transport-list__item--bus">
+                        <input class="visually-hidden transport-list__control" type="checkbox" id="bus" name="on-bus">
+                        <label class="transport-list__checkbox" for="bus">
+                        </label>
+                    </li>
+                    <li class="transport-list__item transport-list__item--filter transport-list__item--bike">
+                        <input class="visually-hidden transport-list__control" type="checkbox" id="bicycle" name="on bike">
+                        <label class="transport-list__checkbox" for="bicycle">
+                        </label>
+                    </li>
+                    <li class="transport-list__item transport-list__item--filter transport-list__item--run">
+                        <input class="visually-hidden transport-list__control" type="checkbox" id="on-feet" name="on-feet" checked>
+                        <label class="transport-list__checkbox" for="on-feet">
+                        </label>
+                    </li>
+                </ul>
+            </li>
+            <li class="filter-companion__item">
+                <button class="filter-companion__button filter-companion__button--level" type="button">Левел<span class="filter-companion__colon">:</span></button>
+                <div class="filter-companion__range-wrapper">
+                    <fieldset class="filter-companion__range-field">
+                        <label class="filter-companion__level filter-companion__level--first">
+                            <input class="filter-companion__number" type="text" value="30" name="min-level">
+                        </label>
+                        <label class="filter-companion__level filter-companion__level--second">
+                            <input class="filter-companion__number" type="text" value="100" name="max-level">
+                        </label>
+                    </fieldset>
+                    <div class="filter-companion__range filter-range">
+                        <div class="filter-range__scale">
+                            <div class="filter-range__bar">
+                                <button class="filter-range__toggle toggle-min" type="button"></button>
+                                <button class="filter-range__toggle toggle-max" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <button class="filter-companion__confirm-button button button--companion" type="submit">Показать</button>
+    </form> 
+</section>

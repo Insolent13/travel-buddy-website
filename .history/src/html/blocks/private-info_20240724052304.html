@@ -1,0 +1,44 @@
+<section class="private-info">
+    <h2 class="visually-hidden">Личная информация</h2>
+    <div class="private-info__level">
+        <span class="private-info__level-value">80</span>
+    </div>
+    <div class="private-info__photo-wrapper">
+        <img src="images/photo-user-2.jpg" width="270" height="270" alt="Фото пользователя">
+    </div>
+    <a class="private-info__change-photo button" href="#">
+        <span class="private-info__desktop-extra">Сменить</span> фото
+    </a>
+    <div class="private-info__unit private-info__unit--hashtags">
+        <h3 class="private-info__title private-info__title--tags">Тэги</h3>
+        <label class="hashtags">
+            <textarea class="private-info__content hashtags__inner-wrapper"
+            placeholder="#бургер #бар #футбол #концерт #крафт"></textarea>
+        </label>
+    </div>
+    <div class="private-info__unit private-info__unit--transport user-transport">
+        <h3 class="private-info__title private-info__title--transport">Транспорт</h3>
+        <ul class="private-info__content">
+            <li class="user-transport__item user-transport__item">
+                <button class="user-transport__item-button user-transport__item-button--plane user-transport__item-button--available">
+                    <span class="visually-hidden">Самолет</span>
+                </button>
+            </li>
+            <li class="user-transport__item user-transport__item">
+                <button class="user-transport__item-button user-transport__item-button--bus user-transport__item-button--available">
+                    <span class="visually-hidden">Автобус</span>
+                </button>
+            </li>
+            <li class="user-transport__item user-transport__item">
+                <button class="user-transport__item-button user-transport__item-button--bike user-transport__item-button--not-available" disabled>
+                    <span class="visually-hidden">Велосипед</span>
+                </button>
+            </li>
+            <li class="user-transport__item user-transport__item">
+                <button class="user-transport__item-button user-transport__item-button--run user-transport__item-button--available">
+                    <span class="visually-hidden">Пешком</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+</section>

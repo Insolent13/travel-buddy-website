@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Погнали? - О сервисе</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body class="page__body">
+	<header class="main-header main-header--main-page">
+		<nav class="main-nav main-nav--main-page main-nav--nojs">
+			<a class="main-header__logo">
+				<img>
+			</a>
+			<ul class="main-nav__list page-list">
+				<li class="page-list__item">
+					<a class="page-list__link page-list__link--current">
+						<span>О сервисе</span>
+					</a>
+				</li>
+				<li class="page-list__item">
+					<a class="page-list__link" href="form.html">
+						<span>Направления</span>
+					</a>
+				</li>
+				<li class="page-list__item">
+					<a class="page-list__link" href="catalog.html">
+						<span>Попутчики</span>
+					</a>
+				</li>
+			</ul>
+			<a class="main-nav__login button" href="#">Авторизация</a>
+			<ul class="main-nav__contacts contacts-list">
+				<li class="contacts-list__item">
+					<a class="contacts-list__link contacts-list__phone contacts-list__phone--simple" href="tel:+88005558628"></a>
+				</li>
+				<li class="contacts-list__item">
+					<a class="contacts-list__link contacts-list__email contacts-list__email--simple" href="mailto:mail@htmlacademy.ru"></a>
+				</li>
+			</ul>
+			<ul class="main-nav__socials social-media">
+				<li class="social-media__item">
+					<a class="social-media__link" href="#">
+						<svg></svg>
+					</a>
+				</li>
+				<li class="social-media__item">
+					<a class="social-media__link" href="#">
+						<svg></svg>
+					</a>
+				</li>
+				<li class="social-media__item">
+					<a class="social-media__link social-media__link--disabled" href="#">
+						<svg></svg>
+					</a>
+				</li>
+			</ul>
+			<button class="main-nav__toggle burger-button burger-button--inner" type="button">
+				<span class="visually-hidden">Кнопка меню</span>
+	  </button>
+	</nav>
+	<main class="main-container">
+		<h1 class="visually-hidden">Сервис для путешественников "Погнали?"</h1>
+		@@include('blocks/promo.html')
+		@@include('blocks/options.html')
+        @@include('blocks/companions.html')
+		@@include('blocks/profile-addition.html')
+		@@include('blocks/registration.html')
+		@@include('blocks/location.html')
+	</main>
+	@@include('blocks/main-footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
